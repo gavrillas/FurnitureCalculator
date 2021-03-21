@@ -1,0 +1,4 @@
+github "ReactiveX/RxSwift" "6.0.0"
+github "RxSwiftCommunity/RxSwiftExt" "6.0.0"
+github "balitm/RxDataSources" "196ccd81ef19ea5880f85895aca34f520a3a20e4"
+github "realm/realm-cocoa" "v10.6.0"

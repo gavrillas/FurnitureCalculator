@@ -1,0 +1,1237 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D1DDADE25B1B26B003DFCB9 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1DDADD25B1B26B003DFCB9 /* RoundedButton.swift */; };
+		6D1DDAE225B1B94F003DFCB9 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1DDAE125B1B94F003DFCB9 /* UIColor+Extensions.swift */; };
+		6D1DDAE825B1BCAF003DFCB9 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1DDAE725B1BCAF003DFCB9 /* UIViewController+Extensions.swift */; };
+		6D1DDAF225B38B53003DFCB9 /* NewFurnitureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1DDAF125B38B53003DFCB9 /* NewFurnitureViewModel.swift */; };
+		6D1DDAF625B5DD7D003DFCB9 /* FurnitureRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1DDAF525B5DD7D003DFCB9 /* FurnitureRepository.swift */; };
+		6D1DDAFA25B5EAB0003DFCB9 /* ComponentRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1DDAF925B5EAB0003DFCB9 /* ComponentRepository.swift */; };
+		6D30740623E1FEA700DFA6AA /* NewFurnitureTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D30740523E1FEA700DFA6AA /* NewFurnitureTableViewController.swift */; };
+		6D4E2A6325DAAC5000F2699F /* UpperViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4E2A6225DAAC5000F2699F /* UpperViewModel.swift */; };
+		6D4E2A7025DABBEE00F2699F /* LowerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4E2A6F25DABBEE00F2699F /* LowerViewModel.swift */; };
+		6D7EBCD523E2044D00615AA3 /* KitchenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7EBCD423E2044D00615AA3 /* KitchenTableViewController.swift */; };
+		6D7EBCD723E2047F00615AA3 /* HomeNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7EBCD623E2047F00615AA3 /* HomeNavigator.swift */; };
+		6D7EBCD923E207FF00615AA3 /* UIStoryboard+load.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7EBCD823E207FF00615AA3 /* UIStoryboard+load.swift */; };
+		6D91AE0F25E1138E005F97C5 /* EntireTopBottomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D91AE0E25E1138E005F97C5 /* EntireTopBottomViewModel.swift */; };
+		6D91AE1825E11461005F97C5 /* UpperBottomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D91AE1725E11460005F97C5 /* UpperBottomViewModel.swift */; };
+		6D91AE1E25E11631005F97C5 /* UpperSideViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D91AE1D25E11631005F97C5 /* UpperSideViewModel.swift */; };
+		6D91AE2825E1171C005F97C5 /* ShelfViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D91AE2725E1171C005F97C5 /* ShelfViewModel.swift */; };
+		6D91AE2C25E117B7005F97C5 /* UpperDoorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D91AE2B25E117B7005F97C5 /* UpperDoorViewModel.swift */; };
+		6D91AE3025E1180F005F97C5 /* HDFViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D91AE2F25E1180F005F97C5 /* HDFViewModel.swift */; };
+		6D91AE3425E1185C005F97C5 /* LowerConnectorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D91AE3325E1185C005F97C5 /* LowerConnectorViewModel.swift */; };
+		6D91AE3825E118E0005F97C5 /* LowerSideViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D91AE3725E118E0005F97C5 /* LowerSideViewModel.swift */; };
+		6D91AE3C25E11933005F97C5 /* LowerDoorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D91AE3B25E11933005F97C5 /* LowerDoorViewModel.swift */; };
+		6D91AE4025E119EF005F97C5 /* LowerDrawerFrontViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D91AE3F25E119EF005F97C5 /* LowerDrawerFrontViewModel.swift */; };
+		6D91AE4425E11B21005F97C5 /* LowerSmallDrawerFrontViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D91AE4325E11B21005F97C5 /* LowerSmallDrawerFrontViewModel.swift */; };
+		6D91AE4A25E11BB3005F97C5 /* LowerSmallDrawerSideViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D91AE4925E11BB3005F97C5 /* LowerSmallDrawerSideViewModel.swift */; };
+		6D91AE5025E11C48005F97C5 /* LowerDrawerSideViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D91AE4F25E11C48005F97C5 /* LowerDrawerSideViewModel.swift */; };
+		6D91AE5425E11CE8005F97C5 /* LowerSmallDrawerBackViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D91AE5325E11CE8005F97C5 /* LowerSmallDrawerBackViewModel.swift */; };
+		6D91AE5A25E11D3C005F97C5 /* LowerDrawerBackViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D91AE5925E11D3C005F97C5 /* LowerDrawerBackViewModel.swift */; };
+		6D91AE5E25E11DD9005F97C5 /* LowerDrawerBottomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D91AE5D25E11DD9005F97C5 /* LowerDrawerBottomViewModel.swift */; };
+		6D91AE6225E11E5E005F97C5 /* TowerSideViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D91AE6125E11E5E005F97C5 /* TowerSideViewModel.swift */; };
+		6D91AE6625E11F03005F97C5 /* GardrobeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D91AE6525E11F03005F97C5 /* GardrobeViewModel.swift */; };
+		6D91AE6C25E13E21005F97C5 /* GardrobeSideViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D91AE6B25E13E21005F97C5 /* GardrobeSideViewModel.swift */; };
+		6D91AE7025E13F1F005F97C5 /* GardrobeShelfViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D91AE6F25E13F1F005F97C5 /* GardrobeShelfViewModel.swift */; };
+		6D91AE7425E140BE005F97C5 /* GardrobePartionWallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D91AE7325E140BE005F97C5 /* GardrobePartionWallViewModel.swift */; };
+		6D91AE7925E1533C005F97C5 /* OtherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D91AE7825E1533C005F97C5 /* OtherViewModel.swift */; };
+		6D91AE7F25E1930D005F97C5 /* GardrobeDoorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D91AE7E25E1930D005F97C5 /* GardrobeDoorViewModel.swift */; };
+		6D91AE8325E1949F005F97C5 /* GardrobeDrawerFrontBackViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D91AE8225E1949F005F97C5 /* GardrobeDrawerFrontBackViewModel.swift */; };
+		6D91AE8725E196C4005F97C5 /* GadrobeDrawerSideViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D91AE8625E196C4005F97C5 /* GadrobeDrawerSideViewModel.swift */; };
+		6D91AE8D25E1A2B1005F97C5 /* LowerHDFViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D91AE8C25E1A2B1005F97C5 /* LowerHDFViewModel.swift */; };
+		6D91AE9125E1AE02005F97C5 /* TowerHDFViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D91AE9025E1AE02005F97C5 /* TowerHDFViewModel.swift */; };
+		6D94F1DC25A71D8700CC78CD /* PreviousMeasurementsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D94F1DB25A71D8700CC78CD /* PreviousMeasurementsViewModel.swift */; };
+		6D962A5423E1FA5200EFEC46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D962A5323E1FA5200EFEC46 /* AppDelegate.swift */; };
+		6D962A5623E1FA5200EFEC46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D962A5523E1FA5200EFEC46 /* SceneDelegate.swift */; };
+		6D962A5B23E1FA5200EFEC46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D962A5923E1FA5200EFEC46 /* Main.storyboard */; };
+		6D962A5D23E1FA5500EFEC46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D962A5C23E1FA5500EFEC46 /* Assets.xcassets */; };
+		6D962A6023E1FA5500EFEC46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D962A5E23E1FA5500EFEC46 /* LaunchScreen.storyboard */; };
+		6D962A6B23E1FA5500EFEC46 /* FurnitureCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D962A6A23E1FA5500EFEC46 /* FurnitureCalculatorTests.swift */; };
+		6D962A7623E1FA5500EFEC46 /* FurnitureCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D962A7523E1FA5500EFEC46 /* FurnitureCalculatorUITests.swift */; };
+		6D98B8C825B8C46C00439722 /* SummaryCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D98B8C725B8C46C00439722 /* SummaryCellViewModel.swift */; };
+		6D9AC753258E4A05004A6EA8 /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9AC752258E4A05004A6EA8 /* Storyboards.swift */; };
+		6D9AC75B258E7D64004A6EA8 /* Calculator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D9AC75A258E7D64004A6EA8 /* Calculator.storyboard */; };
+		6D9AC763258E7DE5004A6EA8 /* CalculatorNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9AC762258E7DE5004A6EA8 /* CalculatorNavigator.swift */; };
+		6D9B6FD925DE60870088EBBE /* TowerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9B6FD825DE60870088EBBE /* TowerViewModel.swift */; };
+		6D9B913825C1DC79008FE61A /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9B913725C1DC79008FE61A /* ViewModelType.swift */; };
+		6D9DC00D25A5C87200143590 /* Measurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9DC00C25A5C87200143590 /* Measurement.swift */; };
+		6D9DC01325A5CD2600143590 /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9DC01225A5CD2600143590 /* Component.swift */; };
+		6D9DC01925A5D48200143590 /* Furniture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9DC01825A5D48200143590 /* Furniture.swift */; };
+		6D9DC01D25A5D67A00143590 /* RealmHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9DC01C25A5D67A00143590 /* RealmHelper.swift */; };
+		6D9DC02225A5DA4500143590 /* MeasurementRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9DC02125A5DA4500143590 /* MeasurementRepository.swift */; };
+		6D9DC02825A5FF4B00143590 /* PreviousMeasurementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9DC02725A5FF4B00143590 /* PreviousMeasurementsViewController.swift */; };
+		6D9DC02C25A602FB00143590 /* MeasurementCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9DC02B25A602FB00143590 /* MeasurementCell.swift */; };
+		6DA3193825A8CAD3008A7014 /* FurnituresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA3193725A8CAD3008A7014 /* FurnituresViewController.swift */; };
+		6DA3193C25A8CB3D008A7014 /* FurnituresViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA3193B25A8CB3D008A7014 /* FurnituresViewModel.swift */; };
+		6DA3194025A8E039008A7014 /* FurnitureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA3193F25A8E039008A7014 /* FurnitureCell.swift */; };
+		6DA4B09225BB1272004792B6 /* FurnitureBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA4B09125BB1272004792B6 /* FurnitureBoard.swift */; };
+		6DB18FA325D7007D0076DFC5 /* FurnitureBoardCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB18FA225D7007D0076DFC5 /* FurnitureBoardCellViewModel.swift */; };
+		6DB18FA725D7025B0076DFC5 /* FurnitureBoardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB18FA625D7025B0076DFC5 /* FurnitureBoardCell.swift */; };
+		6DB18FBD25D7E2280076DFC5 /* RxBidirectional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB18FBC25D7E2280076DFC5 /* RxBidirectional.swift */; };
+		6DB18FC925D7F6330076DFC5 /* SaveComponentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB18FC825D7F6330076DFC5 /* SaveComponentCell.swift */; };
+		6DBB556225B709FE00E6B471 /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBB556125B709FE00E6B471 /* SummaryViewController.swift */; };
+		6DBB556725B70A5500E6B471 /* SummaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBB556625B70A5500E6B471 /* SummaryViewModel.swift */; };
+		6DBB556E25B727D400E6B471 /* SummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBB556D25B727D400E6B471 /* SummaryCell.swift */; };
+		6DBB557425B727F900E6B471 /* ComponentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBB557325B727F900E6B471 /* ComponentCell.swift */; };
+		6DD5732925D4095600134504 /* Differentiator.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD5730225D3F1BF00134504 /* Differentiator.xcframework */; };
+		6DD5732A25D4095600134504 /* Differentiator.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD5730225D3F1BF00134504 /* Differentiator.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6DD5732B25D4095600134504 /* RxBlocking.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD5730025D3F1BF00134504 /* RxBlocking.xcframework */; };
+		6DD5732C25D4095600134504 /* RxBlocking.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD5730025D3F1BF00134504 /* RxBlocking.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6DD5732D25D4095600134504 /* RxCocoa.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD572FF25D3F1BF00134504 /* RxCocoa.xcframework */; };
+		6DD5732E25D4095600134504 /* RxCocoa.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD572FF25D3F1BF00134504 /* RxCocoa.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6DD5732F25D4095600134504 /* RxDataSources.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD5730625D3F1C000134504 /* RxDataSources.xcframework */; };
+		6DD5733025D4095600134504 /* RxDataSources.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD5730625D3F1C000134504 /* RxDataSources.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6DD5733125D4095600134504 /* RxRelay.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD5730425D3F1C000134504 /* RxRelay.xcframework */; };
+		6DD5733225D4095600134504 /* RxRelay.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD5730425D3F1C000134504 /* RxRelay.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6DD5733325D4095600134504 /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD5730325D3F1BF00134504 /* RxSwift.xcframework */; };
+		6DD5733425D4095600134504 /* RxSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD5730325D3F1BF00134504 /* RxSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6DD5733525D4095600134504 /* RxSwiftExt.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD5730525D3F1C000134504 /* RxSwiftExt.xcframework */; };
+		6DD5733625D4095600134504 /* RxSwiftExt.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD5730525D3F1C000134504 /* RxSwiftExt.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6DD5733825D4095600134504 /* RxTest.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD5730125D3F1BF00134504 /* RxTest.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6DD5733C25D4096400134504 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D9DC03425A60AC900143590 /* Realm.framework */; };
+		6DD5733D25D4096400134504 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6D9DC03425A60AC900143590 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6DD5733E25D4096400134504 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D9DC02F25A60AB600143590 /* RealmSwift.framework */; };
+		6DD5733F25D4096400134504 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6D9DC02F25A60AB600143590 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6DD5735225D44FB700134504 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD5735125D44FB700134504 /* CalculatorViewController.swift */; };
+		6DD5735625D450BA00134504 /* CalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD5735525D450BA00134504 /* CalculatorViewModel.swift */; };
+		6DD5735A25D459C600134504 /* ParameterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD5735925D459C600134504 /* ParameterCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D962A6723E1FA5500EFEC46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D962A4823E1FA5200EFEC46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D962A4F23E1FA5200EFEC46;
+			remoteInfo = FurnitureCalculator;
+		};
+		6D962A7223E1FA5500EFEC46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D962A4823E1FA5200EFEC46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D962A4F23E1FA5200EFEC46;
+			remoteInfo = FurnitureCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6DD5733925D4095600134504 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6DD5733D25D4096400134504 /* Realm.framework in Embed Frameworks */,
+				6DD5733025D4095600134504 /* RxDataSources.xcframework in Embed Frameworks */,
+				6DD5732C25D4095600134504 /* RxBlocking.xcframework in Embed Frameworks */,
+				6DD5732A25D4095600134504 /* Differentiator.xcframework in Embed Frameworks */,
+				6DD5733825D4095600134504 /* RxTest.xcframework in Embed Frameworks */,
+				6DD5733425D4095600134504 /* RxSwift.xcframework in Embed Frameworks */,
+				6DD5733F25D4096400134504 /* RealmSwift.framework in Embed Frameworks */,
+				6DD5733225D4095600134504 /* RxRelay.xcframework in Embed Frameworks */,
+				6DD5732E25D4095600134504 /* RxCocoa.xcframework in Embed Frameworks */,
+				6DD5733625D4095600134504 /* RxSwiftExt.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6D1DDADD25B1B26B003DFCB9 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		6D1DDAE125B1B94F003DFCB9 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		6D1DDAE725B1BCAF003DFCB9 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		6D1DDAF125B38B53003DFCB9 /* NewFurnitureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFurnitureViewModel.swift; sourceTree = "<group>"; };
+		6D1DDAF525B5DD7D003DFCB9 /* FurnitureRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureRepository.swift; sourceTree = "<group>"; };
+		6D1DDAF925B5EAB0003DFCB9 /* ComponentRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentRepository.swift; sourceTree = "<group>"; };
+		6D30740523E1FEA700DFA6AA /* NewFurnitureTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFurnitureTableViewController.swift; sourceTree = "<group>"; };
+		6D30740823E1FF8300DFA6AA /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		6D30740923E1FF8300DFA6AA /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		6D30740F23E2018B00DFA6AA /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
+		6D30741023E2018B00DFA6AA /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
+		6D30741523E201D400DFA6AA /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		6D4E2A6225DAAC5000F2699F /* UpperViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperViewModel.swift; sourceTree = "<group>"; };
+		6D4E2A6F25DABBEE00F2699F /* LowerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerViewModel.swift; sourceTree = "<group>"; };
+		6D7EBCC923E202DB00615AA3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6D7EBCD423E2044D00615AA3 /* KitchenTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenTableViewController.swift; sourceTree = "<group>"; };
+		6D7EBCD623E2047F00615AA3 /* HomeNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigator.swift; sourceTree = "<group>"; };
+		6D7EBCD823E207FF00615AA3 /* UIStoryboard+load.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+load.swift"; sourceTree = "<group>"; };
+		6D91AE0E25E1138E005F97C5 /* EntireTopBottomViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntireTopBottomViewModel.swift; sourceTree = "<group>"; };
+		6D91AE1725E11460005F97C5 /* UpperBottomViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperBottomViewModel.swift; sourceTree = "<group>"; };
+		6D91AE1D25E11631005F97C5 /* UpperSideViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperSideViewModel.swift; sourceTree = "<group>"; };
+		6D91AE2725E1171C005F97C5 /* ShelfViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfViewModel.swift; sourceTree = "<group>"; };
+		6D91AE2B25E117B7005F97C5 /* UpperDoorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperDoorViewModel.swift; sourceTree = "<group>"; };
+		6D91AE2F25E1180F005F97C5 /* HDFViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDFViewModel.swift; sourceTree = "<group>"; };
+		6D91AE3325E1185C005F97C5 /* LowerConnectorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerConnectorViewModel.swift; sourceTree = "<group>"; };
+		6D91AE3725E118E0005F97C5 /* LowerSideViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerSideViewModel.swift; sourceTree = "<group>"; };
+		6D91AE3B25E11933005F97C5 /* LowerDoorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerDoorViewModel.swift; sourceTree = "<group>"; };
+		6D91AE3F25E119EF005F97C5 /* LowerDrawerFrontViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerDrawerFrontViewModel.swift; sourceTree = "<group>"; };
+		6D91AE4325E11B21005F97C5 /* LowerSmallDrawerFrontViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerSmallDrawerFrontViewModel.swift; sourceTree = "<group>"; };
+		6D91AE4925E11BB3005F97C5 /* LowerSmallDrawerSideViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerSmallDrawerSideViewModel.swift; sourceTree = "<group>"; };
+		6D91AE4F25E11C48005F97C5 /* LowerDrawerSideViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerDrawerSideViewModel.swift; sourceTree = "<group>"; };
+		6D91AE5325E11CE8005F97C5 /* LowerSmallDrawerBackViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerSmallDrawerBackViewModel.swift; sourceTree = "<group>"; };
+		6D91AE5925E11D3C005F97C5 /* LowerDrawerBackViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerDrawerBackViewModel.swift; sourceTree = "<group>"; };
+		6D91AE5D25E11DD9005F97C5 /* LowerDrawerBottomViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerDrawerBottomViewModel.swift; sourceTree = "<group>"; };
+		6D91AE6125E11E5E005F97C5 /* TowerSideViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowerSideViewModel.swift; sourceTree = "<group>"; };
+		6D91AE6525E11F03005F97C5 /* GardrobeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardrobeViewModel.swift; sourceTree = "<group>"; };
+		6D91AE6B25E13E21005F97C5 /* GardrobeSideViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardrobeSideViewModel.swift; sourceTree = "<group>"; };
+		6D91AE6F25E13F1F005F97C5 /* GardrobeShelfViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardrobeShelfViewModel.swift; sourceTree = "<group>"; };
+		6D91AE7325E140BE005F97C5 /* GardrobePartionWallViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardrobePartionWallViewModel.swift; sourceTree = "<group>"; };
+		6D91AE7825E1533C005F97C5 /* OtherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewModel.swift; sourceTree = "<group>"; };
+		6D91AE7E25E1930D005F97C5 /* GardrobeDoorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardrobeDoorViewModel.swift; sourceTree = "<group>"; };
+		6D91AE8225E1949F005F97C5 /* GardrobeDrawerFrontBackViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardrobeDrawerFrontBackViewModel.swift; sourceTree = "<group>"; };
+		6D91AE8625E196C4005F97C5 /* GadrobeDrawerSideViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GadrobeDrawerSideViewModel.swift; sourceTree = "<group>"; };
+		6D91AE8C25E1A2B1005F97C5 /* LowerHDFViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerHDFViewModel.swift; sourceTree = "<group>"; };
+		6D91AE9025E1AE02005F97C5 /* TowerHDFViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowerHDFViewModel.swift; sourceTree = "<group>"; };
+		6D94F1DB25A71D8700CC78CD /* PreviousMeasurementsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviousMeasurementsViewModel.swift; sourceTree = "<group>"; };
+		6D94F1E125A7255400CC78CD /* RxDataSources.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxDataSources.framework; path = Carthage/Build/iOS/RxDataSources.framework; sourceTree = "<group>"; };
+		6D94F1F125A74D0500CC78CD /* Differentiator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Differentiator.framework; path = Carthage/Build/iOS/Differentiator.framework; sourceTree = "<group>"; };
+		6D94F1F625A74D0800CC78CD /* RxSwiftExt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwiftExt.framework; path = Carthage/Build/iOS/RxSwiftExt.framework; sourceTree = "<group>"; };
+		6D962A5023E1FA5200EFEC46 /* FurnitureCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FurnitureCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D962A5323E1FA5200EFEC46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D962A5523E1FA5200EFEC46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6D962A5A23E1FA5200EFEC46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D962A5C23E1FA5500EFEC46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D962A5F23E1FA5500EFEC46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D962A6123E1FA5500EFEC46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D962A6623E1FA5500EFEC46 /* FurnitureCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FurnitureCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D962A6A23E1FA5500EFEC46 /* FurnitureCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureCalculatorTests.swift; sourceTree = "<group>"; };
+		6D962A6C23E1FA5500EFEC46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D962A7123E1FA5500EFEC46 /* FurnitureCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FurnitureCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D962A7523E1FA5500EFEC46 /* FurnitureCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureCalculatorUITests.swift; sourceTree = "<group>"; };
+		6D962A7723E1FA5500EFEC46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D98B8C725B8C46C00439722 /* SummaryCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryCellViewModel.swift; sourceTree = "<group>"; };
+		6D9AC752258E4A05004A6EA8 /* Storyboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
+		6D9AC75A258E7D64004A6EA8 /* Calculator.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Calculator.storyboard; sourceTree = "<group>"; };
+		6D9AC762258E7DE5004A6EA8 /* CalculatorNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorNavigator.swift; sourceTree = "<group>"; };
+		6D9B6FD825DE60870088EBBE /* TowerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowerViewModel.swift; sourceTree = "<group>"; };
+		6D9B913725C1DC79008FE61A /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
+		6D9DC00C25A5C87200143590 /* Measurement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Measurement.swift; sourceTree = "<group>"; };
+		6D9DC01225A5CD2600143590 /* Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
+		6D9DC01825A5D48200143590 /* Furniture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Furniture.swift; sourceTree = "<group>"; };
+		6D9DC01C25A5D67A00143590 /* RealmHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmHelper.swift; sourceTree = "<group>"; };
+		6D9DC02125A5DA4500143590 /* MeasurementRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementRepository.swift; sourceTree = "<group>"; };
+		6D9DC02725A5FF4B00143590 /* PreviousMeasurementsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviousMeasurementsViewController.swift; sourceTree = "<group>"; };
+		6D9DC02B25A602FB00143590 /* MeasurementCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementCell.swift; sourceTree = "<group>"; };
+		6D9DC02F25A60AB600143590 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		6D9DC03425A60AC900143590 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		6DA3193725A8CAD3008A7014 /* FurnituresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnituresViewController.swift; sourceTree = "<group>"; };
+		6DA3193B25A8CB3D008A7014 /* FurnituresViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnituresViewModel.swift; sourceTree = "<group>"; };
+		6DA3193F25A8E039008A7014 /* FurnitureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureCell.swift; sourceTree = "<group>"; };
+		6DA4B09125BB1272004792B6 /* FurnitureBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureBoard.swift; sourceTree = "<group>"; };
+		6DB18FA225D7007D0076DFC5 /* FurnitureBoardCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureBoardCellViewModel.swift; sourceTree = "<group>"; };
+		6DB18FA625D7025B0076DFC5 /* FurnitureBoardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureBoardCell.swift; sourceTree = "<group>"; };
+		6DB18FBC25D7E2280076DFC5 /* RxBidirectional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxBidirectional.swift; sourceTree = "<group>"; };
+		6DB18FC825D7F6330076DFC5 /* SaveComponentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveComponentCell.swift; sourceTree = "<group>"; };
+		6DBB556125B709FE00E6B471 /* SummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
+		6DBB556625B70A5500E6B471 /* SummaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewModel.swift; sourceTree = "<group>"; };
+		6DBB556D25B727D400E6B471 /* SummaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryCell.swift; sourceTree = "<group>"; };
+		6DBB557325B727F900E6B471 /* ComponentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentCell.swift; sourceTree = "<group>"; };
+		6DD572FF25D3F1BF00134504 /* RxCocoa.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxCocoa.xcframework; path = Carthage/Build/RxCocoa.xcframework; sourceTree = "<group>"; };
+		6DD5730025D3F1BF00134504 /* RxBlocking.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxBlocking.xcframework; path = Carthage/Build/RxBlocking.xcframework; sourceTree = "<group>"; };
+		6DD5730125D3F1BF00134504 /* RxTest.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxTest.xcframework; path = Carthage/Build/RxTest.xcframework; sourceTree = "<group>"; };
+		6DD5730225D3F1BF00134504 /* Differentiator.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Differentiator.xcframework; path = Carthage/Build/Differentiator.xcframework; sourceTree = "<group>"; };
+		6DD5730325D3F1BF00134504 /* RxSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxSwift.xcframework; path = Carthage/Build/RxSwift.xcframework; sourceTree = "<group>"; };
+		6DD5730425D3F1C000134504 /* RxRelay.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxRelay.xcframework; path = Carthage/Build/RxRelay.xcframework; sourceTree = "<group>"; };
+		6DD5730525D3F1C000134504 /* RxSwiftExt.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxSwiftExt.xcframework; path = Carthage/Build/RxSwiftExt.xcframework; sourceTree = "<group>"; };
+		6DD5730625D3F1C000134504 /* RxDataSources.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxDataSources.xcframework; path = Carthage/Build/RxDataSources.xcframework; sourceTree = "<group>"; };
+		6DD5735125D44FB700134504 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		6DD5735525D450BA00134504 /* CalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewModel.swift; sourceTree = "<group>"; };
+		6DD5735925D459C600134504 /* ParameterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D962A4D23E1FA5200EFEC46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DD5733C25D4096400134504 /* Realm.framework in Frameworks */,
+				6DD5732F25D4095600134504 /* RxDataSources.xcframework in Frameworks */,
+				6DD5732B25D4095600134504 /* RxBlocking.xcframework in Frameworks */,
+				6DD5732925D4095600134504 /* Differentiator.xcframework in Frameworks */,
+				6DD5733325D4095600134504 /* RxSwift.xcframework in Frameworks */,
+				6DD5733E25D4096400134504 /* RealmSwift.framework in Frameworks */,
+				6DD5733125D4095600134504 /* RxRelay.xcframework in Frameworks */,
+				6DD5732D25D4095600134504 /* RxCocoa.xcframework in Frameworks */,
+				6DD5733525D4095600134504 /* RxSwiftExt.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D962A6323E1FA5500EFEC46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D962A6E23E1FA5500EFEC46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D1DDADC25B1B250003DFCB9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6D1DDADD25B1B26B003DFCB9 /* RoundedButton.swift */,
+				6D1DDAE725B1BCAF003DFCB9 /* UIViewController+Extensions.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6D30740423E1FE6B00DFA6AA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6DA3192D25A88F56008A7014 /* Scenes */,
+				6D962A5923E1FA5200EFEC46 /* Main.storyboard */,
+				6D7EBCD623E2047F00615AA3 /* HomeNavigator.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		6D30740723E1FF8300DFA6AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DD5730225D3F1BF00134504 /* Differentiator.xcframework */,
+				6DD5730025D3F1BF00134504 /* RxBlocking.xcframework */,
+				6DD572FF25D3F1BF00134504 /* RxCocoa.xcframework */,
+				6DD5730625D3F1C000134504 /* RxDataSources.xcframework */,
+				6DD5730425D3F1C000134504 /* RxRelay.xcframework */,
+				6DD5730325D3F1BF00134504 /* RxSwift.xcframework */,
+				6DD5730525D3F1C000134504 /* RxSwiftExt.xcframework */,
+				6DD5730125D3F1BF00134504 /* RxTest.xcframework */,
+				6D94F1F625A74D0800CC78CD /* RxSwiftExt.framework */,
+				6D94F1F125A74D0500CC78CD /* Differentiator.framework */,
+				6D94F1E125A7255400CC78CD /* RxDataSources.framework */,
+				6D9DC03425A60AC900143590 /* Realm.framework */,
+				6D9DC02F25A60AB600143590 /* RealmSwift.framework */,
+				6D7EBCC923E202DB00615AA3 /* XCTest.framework */,
+				6D30741523E201D400DFA6AA /* RxBlocking.framework */,
+				6D30741023E2018B00DFA6AA /* RxRelay.framework */,
+				6D30740F23E2018B00DFA6AA /* RxTest.framework */,
+				6D30740823E1FF8300DFA6AA /* RxCocoa.framework */,
+				6D30740923E1FF8300DFA6AA /* RxSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D7EBCD323E2042500615AA3 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				6DBB555C25B7097700E6B471 /* Scenes */,
+				6D9AC75A258E7D64004A6EA8 /* Calculator.storyboard */,
+				6D9AC762258E7DE5004A6EA8 /* CalculatorNavigator.swift */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		6D8E1C7625923FAF0016C029 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				6D9DC00B25A5C81C00143590 /* Model */,
+				6D9DC01C25A5D67A00143590 /* RealmHelper.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		6D91AE0A25E112F0005F97C5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				6D91AE0E25E1138E005F97C5 /* EntireTopBottomViewModel.swift */,
+				6D91AE2725E1171C005F97C5 /* ShelfViewModel.swift */,
+				6D91AE2F25E1180F005F97C5 /* HDFViewModel.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		6D91AE0B25E112FB005F97C5 /* Gardrobe */ = {
+			isa = PBXGroup;
+			children = (
+				6D91AE6B25E13E21005F97C5 /* GardrobeSideViewModel.swift */,
+				6D91AE6F25E13F1F005F97C5 /* GardrobeShelfViewModel.swift */,
+				6D91AE7325E140BE005F97C5 /* GardrobePartionWallViewModel.swift */,
+				6D91AE7E25E1930D005F97C5 /* GardrobeDoorViewModel.swift */,
+				6D91AE8225E1949F005F97C5 /* GardrobeDrawerFrontBackViewModel.swift */,
+				6D91AE8625E196C4005F97C5 /* GadrobeDrawerSideViewModel.swift */,
+			);
+			path = Gardrobe;
+			sourceTree = "<group>";
+		};
+		6D91AE1425E11426005F97C5 /* Upper */ = {
+			isa = PBXGroup;
+			children = (
+				6D91AE1725E11460005F97C5 /* UpperBottomViewModel.swift */,
+				6D91AE1D25E11631005F97C5 /* UpperSideViewModel.swift */,
+				6D91AE2B25E117B7005F97C5 /* UpperDoorViewModel.swift */,
+			);
+			path = Upper;
+			sourceTree = "<group>";
+		};
+		6D91AE1525E1142D005F97C5 /* Lower */ = {
+			isa = PBXGroup;
+			children = (
+				6D91AE3325E1185C005F97C5 /* LowerConnectorViewModel.swift */,
+				6D91AE3725E118E0005F97C5 /* LowerSideViewModel.swift */,
+				6D91AE3B25E11933005F97C5 /* LowerDoorViewModel.swift */,
+				6D91AE3F25E119EF005F97C5 /* LowerDrawerFrontViewModel.swift */,
+				6D91AE4325E11B21005F97C5 /* LowerSmallDrawerFrontViewModel.swift */,
+				6D91AE4925E11BB3005F97C5 /* LowerSmallDrawerSideViewModel.swift */,
+				6D91AE4F25E11C48005F97C5 /* LowerDrawerSideViewModel.swift */,
+				6D91AE5325E11CE8005F97C5 /* LowerSmallDrawerBackViewModel.swift */,
+				6D91AE5925E11D3C005F97C5 /* LowerDrawerBackViewModel.swift */,
+				6D91AE5D25E11DD9005F97C5 /* LowerDrawerBottomViewModel.swift */,
+				6D91AE8C25E1A2B1005F97C5 /* LowerHDFViewModel.swift */,
+			);
+			path = Lower;
+			sourceTree = "<group>";
+		};
+		6D91AE1625E11431005F97C5 /* Tower */ = {
+			isa = PBXGroup;
+			children = (
+				6D91AE6125E11E5E005F97C5 /* TowerSideViewModel.swift */,
+				6D91AE9025E1AE02005F97C5 /* TowerHDFViewModel.swift */,
+			);
+			path = Tower;
+			sourceTree = "<group>";
+		};
+		6D91AE7725E1531B005F97C5 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		6D94F1DA25A71D6700CC78CD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6D94F1DB25A71D8700CC78CD /* PreviousMeasurementsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6D962A4723E1FA5200EFEC46 = {
+			isa = PBXGroup;
+			children = (
+				6D962A5223E1FA5200EFEC46 /* FurnitureCalculator */,
+				6D962A6923E1FA5500EFEC46 /* FurnitureCalculatorTests */,
+				6D962A7423E1FA5500EFEC46 /* FurnitureCalculatorUITests */,
+				6D962A5123E1FA5200EFEC46 /* Products */,
+				6D30740723E1FF8300DFA6AA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6D962A5123E1FA5200EFEC46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D962A5023E1FA5200EFEC46 /* FurnitureCalculator.app */,
+				6D962A6623E1FA5500EFEC46 /* FurnitureCalculatorTests.xctest */,
+				6D962A7123E1FA5500EFEC46 /* FurnitureCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D962A5223E1FA5200EFEC46 /* FurnitureCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				6D9DC02025A5D87900143590 /* Repositories */,
+				6D8E1C7625923FAF0016C029 /* Realm */,
+				6D9AC751258E49E5004A6EA8 /* Util */,
+				6D7EBCD323E2042500615AA3 /* Calculator */,
+				6D30740423E1FE6B00DFA6AA /* Home */,
+				6D962A5323E1FA5200EFEC46 /* AppDelegate.swift */,
+				6D962A5523E1FA5200EFEC46 /* SceneDelegate.swift */,
+				6D962A5C23E1FA5500EFEC46 /* Assets.xcassets */,
+				6D962A5E23E1FA5500EFEC46 /* LaunchScreen.storyboard */,
+				6D962A6123E1FA5500EFEC46 /* Info.plist */,
+			);
+			path = FurnitureCalculator;
+			sourceTree = "<group>";
+		};
+		6D962A6923E1FA5500EFEC46 /* FurnitureCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D962A6A23E1FA5500EFEC46 /* FurnitureCalculatorTests.swift */,
+				6D962A6C23E1FA5500EFEC46 /* Info.plist */,
+			);
+			path = FurnitureCalculatorTests;
+			sourceTree = "<group>";
+		};
+		6D962A7423E1FA5500EFEC46 /* FurnitureCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D962A7523E1FA5500EFEC46 /* FurnitureCalculatorUITests.swift */,
+				6D962A7723E1FA5500EFEC46 /* Info.plist */,
+			);
+			path = FurnitureCalculatorUITests;
+			sourceTree = "<group>";
+		};
+		6D9AC751258E49E5004A6EA8 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				6D1DDADC25B1B250003DFCB9 /* Views */,
+				6D9AC752258E4A05004A6EA8 /* Storyboards.swift */,
+				6D1DDAE125B1B94F003DFCB9 /* UIColor+Extensions.swift */,
+				6D9B913725C1DC79008FE61A /* ViewModelType.swift */,
+				6D7EBCD823E207FF00615AA3 /* UIStoryboard+load.swift */,
+				6DB18FBC25D7E2280076DFC5 /* RxBidirectional.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		6D9AC772258E9FFB004A6EA8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6D9B6FE125DEFA4D0088EBBE /* FurnitureBoardViewModels */,
+				6DD5735525D450BA00134504 /* CalculatorViewModel.swift */,
+				6D4E2A6225DAAC5000F2699F /* UpperViewModel.swift */,
+				6D4E2A6F25DABBEE00F2699F /* LowerViewModel.swift */,
+				6D9B6FD825DE60870088EBBE /* TowerViewModel.swift */,
+				6D91AE6525E11F03005F97C5 /* GardrobeViewModel.swift */,
+				6D91AE7825E1533C005F97C5 /* OtherViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6D9B6FE025DEFA240088EBBE /* Kitchen */ = {
+			isa = PBXGroup;
+			children = (
+				6D91AE1425E11426005F97C5 /* Upper */,
+				6D91AE1525E1142D005F97C5 /* Lower */,
+				6D91AE1625E11431005F97C5 /* Tower */,
+			);
+			path = Kitchen;
+			sourceTree = "<group>";
+		};
+		6D9B6FE125DEFA4D0088EBBE /* FurnitureBoardViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6DB18FA225D7007D0076DFC5 /* FurnitureBoardCellViewModel.swift */,
+				6D91AE0A25E112F0005F97C5 /* Common */,
+				6D9B6FE025DEFA240088EBBE /* Kitchen */,
+				6D91AE0B25E112FB005F97C5 /* Gardrobe */,
+				6D91AE7725E1531B005F97C5 /* Other */,
+			);
+			path = FurnitureBoardViewModels;
+			sourceTree = "<group>";
+		};
+		6D9D4B0F25AA495D00D89903 /* NewFurniture */ = {
+			isa = PBXGroup;
+			children = (
+				6D9D4B1125AA497D00D89903 /* ViewModels */,
+				6D9D4B1025AA496B00D89903 /* Views */,
+			);
+			path = NewFurniture;
+			sourceTree = "<group>";
+		};
+		6D9D4B1025AA496B00D89903 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6D30740523E1FEA700DFA6AA /* NewFurnitureTableViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6D9D4B1125AA497D00D89903 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6D1DDAF125B38B53003DFCB9 /* NewFurnitureViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6D9DC00B25A5C81C00143590 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6D9DC00C25A5C87200143590 /* Measurement.swift */,
+				6D9DC01825A5D48200143590 /* Furniture.swift */,
+				6D9DC01225A5CD2600143590 /* Component.swift */,
+				6DA4B09125BB1272004792B6 /* FurnitureBoard.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6D9DC02025A5D87900143590 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				6D9DC02125A5DA4500143590 /* MeasurementRepository.swift */,
+				6D1DDAF525B5DD7D003DFCB9 /* FurnitureRepository.swift */,
+				6D1DDAF925B5EAB0003DFCB9 /* ComponentRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		6DA3192D25A88F56008A7014 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				6D9D4B0F25AA495D00D89903 /* NewFurniture */,
+				6DA3193225A8932A008A7014 /* Furnitures */,
+				6DA3192E25A88FA3008A7014 /* PreviousMeasurements */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		6DA3192E25A88FA3008A7014 /* PreviousMeasurements */ = {
+			isa = PBXGroup;
+			children = (
+				6DA3192F25A88FE4008A7014 /* Views */,
+				6D94F1DA25A71D6700CC78CD /* ViewModels */,
+			);
+			path = PreviousMeasurements;
+			sourceTree = "<group>";
+		};
+		6DA3192F25A88FE4008A7014 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6D9DC02725A5FF4B00143590 /* PreviousMeasurementsViewController.swift */,
+				6D9DC02B25A602FB00143590 /* MeasurementCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6DA3193225A8932A008A7014 /* Furnitures */ = {
+			isa = PBXGroup;
+			children = (
+				6DA3193425A89341008A7014 /* ViewModels */,
+				6DA3193325A89337008A7014 /* Views */,
+			);
+			path = Furnitures;
+			sourceTree = "<group>";
+		};
+		6DA3193325A89337008A7014 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6DA3193725A8CAD3008A7014 /* FurnituresViewController.swift */,
+				6DA3193F25A8E039008A7014 /* FurnitureCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6DA3193425A89341008A7014 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6DA3193B25A8CB3D008A7014 /* FurnituresViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6DBB555C25B7097700E6B471 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				6DBB556025B709D800E6B471 /* Summary */,
+				6DBB555F25B709C200E6B471 /* KitchenComponents */,
+				6DBB555D25B7098B00E6B471 /* Calculator */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		6DBB555D25B7098B00E6B471 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				6DBB555E25B709A300E6B471 /* Views */,
+				6D9AC772258E9FFB004A6EA8 /* ViewModels */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		6DBB555E25B709A300E6B471 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6DD5735125D44FB700134504 /* CalculatorViewController.swift */,
+				6DD5735925D459C600134504 /* ParameterCell.swift */,
+				6DB18FA625D7025B0076DFC5 /* FurnitureBoardCell.swift */,
+				6DB18FC825D7F6330076DFC5 /* SaveComponentCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6DBB555F25B709C200E6B471 /* KitchenComponents */ = {
+			isa = PBXGroup;
+			children = (
+				6D7EBCD423E2044D00615AA3 /* KitchenTableViewController.swift */,
+			);
+			path = KitchenComponents;
+			sourceTree = "<group>";
+		};
+		6DBB556025B709D800E6B471 /* Summary */ = {
+			isa = PBXGroup;
+			children = (
+				6DBB556C25B727B800E6B471 /* Views */,
+				6DBB556525B70A4300E6B471 /* ViewModel */,
+			);
+			path = Summary;
+			sourceTree = "<group>";
+		};
+		6DBB556525B70A4300E6B471 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6DBB556625B70A5500E6B471 /* SummaryViewModel.swift */,
+				6D98B8C725B8C46C00439722 /* SummaryCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6DBB556C25B727B800E6B471 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6DBB556125B709FE00E6B471 /* SummaryViewController.swift */,
+				6DBB556D25B727D400E6B471 /* SummaryCell.swift */,
+				6DBB557325B727F900E6B471 /* ComponentCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D962A4F23E1FA5200EFEC46 /* FurnitureCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D962A7A23E1FA5500EFEC46 /* Build configuration list for PBXNativeTarget "FurnitureCalculator" */;
+			buildPhases = (
+				6D962A4C23E1FA5200EFEC46 /* Sources */,
+				6D962A4D23E1FA5200EFEC46 /* Frameworks */,
+				6D962A4E23E1FA5200EFEC46 /* Resources */,
+				6DD5733925D4095600134504 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FurnitureCalculator;
+			productName = FurnitureCalculator;
+			productReference = 6D962A5023E1FA5200EFEC46 /* FurnitureCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D962A6523E1FA5500EFEC46 /* FurnitureCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D962A7D23E1FA5500EFEC46 /* Build configuration list for PBXNativeTarget "FurnitureCalculatorTests" */;
+			buildPhases = (
+				6D962A6223E1FA5500EFEC46 /* Sources */,
+				6D962A6323E1FA5500EFEC46 /* Frameworks */,
+				6D962A6423E1FA5500EFEC46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D962A6823E1FA5500EFEC46 /* PBXTargetDependency */,
+			);
+			name = FurnitureCalculatorTests;
+			productName = FurnitureCalculatorTests;
+			productReference = 6D962A6623E1FA5500EFEC46 /* FurnitureCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D962A7023E1FA5500EFEC46 /* FurnitureCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D962A8023E1FA5500EFEC46 /* Build configuration list for PBXNativeTarget "FurnitureCalculatorUITests" */;
+			buildPhases = (
+				6D962A6D23E1FA5500EFEC46 /* Sources */,
+				6D962A6E23E1FA5500EFEC46 /* Frameworks */,
+				6D962A6F23E1FA5500EFEC46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D962A7323E1FA5500EFEC46 /* PBXTargetDependency */,
+			);
+			name = FurnitureCalculatorUITests;
+			productName = FurnitureCalculatorUITests;
+			productReference = 6D962A7123E1FA5500EFEC46 /* FurnitureCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D962A4823E1FA5200EFEC46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = kristof;
+				TargetAttributes = {
+					6D962A4F23E1FA5200EFEC46 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					6D962A6523E1FA5500EFEC46 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 6D962A4F23E1FA5200EFEC46;
+					};
+					6D962A7023E1FA5500EFEC46 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 6D962A4F23E1FA5200EFEC46;
+					};
+				};
+			};
+			buildConfigurationList = 6D962A4B23E1FA5200EFEC46 /* Build configuration list for PBXProject "FurnitureCalculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D962A4723E1FA5200EFEC46;
+			productRefGroup = 6D962A5123E1FA5200EFEC46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D962A4F23E1FA5200EFEC46 /* FurnitureCalculator */,
+				6D962A6523E1FA5500EFEC46 /* FurnitureCalculatorTests */,
+				6D962A7023E1FA5500EFEC46 /* FurnitureCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D962A4E23E1FA5200EFEC46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D962A6023E1FA5500EFEC46 /* LaunchScreen.storyboard in Resources */,
+				6D962A5D23E1FA5500EFEC46 /* Assets.xcassets in Resources */,
+				6D962A5B23E1FA5200EFEC46 /* Main.storyboard in Resources */,
+				6D9AC75B258E7D64004A6EA8 /* Calculator.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D962A6423E1FA5500EFEC46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D962A6F23E1FA5500EFEC46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D962A4C23E1FA5200EFEC46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D91AE5A25E11D3C005F97C5 /* LowerDrawerBackViewModel.swift in Sources */,
+				6D91AE3425E1185C005F97C5 /* LowerConnectorViewModel.swift in Sources */,
+				6DB18FA325D7007D0076DFC5 /* FurnitureBoardCellViewModel.swift in Sources */,
+				6D9B6FD925DE60870088EBBE /* TowerViewModel.swift in Sources */,
+				6D91AE8325E1949F005F97C5 /* GardrobeDrawerFrontBackViewModel.swift in Sources */,
+				6D1DDAF625B5DD7D003DFCB9 /* FurnitureRepository.swift in Sources */,
+				6D1DDAF225B38B53003DFCB9 /* NewFurnitureViewModel.swift in Sources */,
+				6D30740623E1FEA700DFA6AA /* NewFurnitureTableViewController.swift in Sources */,
+				6D91AE6625E11F03005F97C5 /* GardrobeViewModel.swift in Sources */,
+				6D1DDAFA25B5EAB0003DFCB9 /* ComponentRepository.swift in Sources */,
+				6D7EBCD723E2047F00615AA3 /* HomeNavigator.swift in Sources */,
+				6D91AE7925E1533C005F97C5 /* OtherViewModel.swift in Sources */,
+				6D91AE5425E11CE8005F97C5 /* LowerSmallDrawerBackViewModel.swift in Sources */,
+				6D7EBCD923E207FF00615AA3 /* UIStoryboard+load.swift in Sources */,
+				6D4E2A6325DAAC5000F2699F /* UpperViewModel.swift in Sources */,
+				6D91AE4025E119EF005F97C5 /* LowerDrawerFrontViewModel.swift in Sources */,
+				6DA3193825A8CAD3008A7014 /* FurnituresViewController.swift in Sources */,
+				6D9AC753258E4A05004A6EA8 /* Storyboards.swift in Sources */,
+				6DB18FC925D7F6330076DFC5 /* SaveComponentCell.swift in Sources */,
+				6D9B913825C1DC79008FE61A /* ViewModelType.swift in Sources */,
+				6DA3193C25A8CB3D008A7014 /* FurnituresViewModel.swift in Sources */,
+				6D91AE4425E11B21005F97C5 /* LowerSmallDrawerFrontViewModel.swift in Sources */,
+				6D91AE5E25E11DD9005F97C5 /* LowerDrawerBottomViewModel.swift in Sources */,
+				6D91AE4A25E11BB3005F97C5 /* LowerSmallDrawerSideViewModel.swift in Sources */,
+				6DB18FA725D7025B0076DFC5 /* FurnitureBoardCell.swift in Sources */,
+				6D1DDAE225B1B94F003DFCB9 /* UIColor+Extensions.swift in Sources */,
+				6D9DC02825A5FF4B00143590 /* PreviousMeasurementsViewController.swift in Sources */,
+				6D91AE8D25E1A2B1005F97C5 /* LowerHDFViewModel.swift in Sources */,
+				6D94F1DC25A71D8700CC78CD /* PreviousMeasurementsViewModel.swift in Sources */,
+				6D91AE3825E118E0005F97C5 /* LowerSideViewModel.swift in Sources */,
+				6D962A5423E1FA5200EFEC46 /* AppDelegate.swift in Sources */,
+				6DD5735A25D459C600134504 /* ParameterCell.swift in Sources */,
+				6D91AE8725E196C4005F97C5 /* GadrobeDrawerSideViewModel.swift in Sources */,
+				6DA3194025A8E039008A7014 /* FurnitureCell.swift in Sources */,
+				6D98B8C825B8C46C00439722 /* SummaryCellViewModel.swift in Sources */,
+				6D91AE5025E11C48005F97C5 /* LowerDrawerSideViewModel.swift in Sources */,
+				6D9DC00D25A5C87200143590 /* Measurement.swift in Sources */,
+				6D9AC763258E7DE5004A6EA8 /* CalculatorNavigator.swift in Sources */,
+				6D4E2A7025DABBEE00F2699F /* LowerViewModel.swift in Sources */,
+				6D91AE2825E1171C005F97C5 /* ShelfViewModel.swift in Sources */,
+				6D1DDAE825B1BCAF003DFCB9 /* UIViewController+Extensions.swift in Sources */,
+				6DBB556225B709FE00E6B471 /* SummaryViewController.swift in Sources */,
+				6DBB557425B727F900E6B471 /* ComponentCell.swift in Sources */,
+				6D91AE1825E11461005F97C5 /* UpperBottomViewModel.swift in Sources */,
+				6D962A5623E1FA5200EFEC46 /* SceneDelegate.swift in Sources */,
+				6D91AE6C25E13E21005F97C5 /* GardrobeSideViewModel.swift in Sources */,
+				6D91AE6225E11E5E005F97C5 /* TowerSideViewModel.swift in Sources */,
+				6DD5735625D450BA00134504 /* CalculatorViewModel.swift in Sources */,
+				6D91AE1E25E11631005F97C5 /* UpperSideViewModel.swift in Sources */,
+				6DBB556725B70A5500E6B471 /* SummaryViewModel.swift in Sources */,
+				6D91AE2C25E117B7005F97C5 /* UpperDoorViewModel.swift in Sources */,
+				6D9DC02225A5DA4500143590 /* MeasurementRepository.swift in Sources */,
+				6D7EBCD523E2044D00615AA3 /* KitchenTableViewController.swift in Sources */,
+				6DBB556E25B727D400E6B471 /* SummaryCell.swift in Sources */,
+				6D1DDADE25B1B26B003DFCB9 /* RoundedButton.swift in Sources */,
+				6D91AE7425E140BE005F97C5 /* GardrobePartionWallViewModel.swift in Sources */,
+				6D91AE9125E1AE02005F97C5 /* TowerHDFViewModel.swift in Sources */,
+				6D9DC01925A5D48200143590 /* Furniture.swift in Sources */,
+				6D91AE7F25E1930D005F97C5 /* GardrobeDoorViewModel.swift in Sources */,
+				6DD5735225D44FB700134504 /* CalculatorViewController.swift in Sources */,
+				6D91AE0F25E1138E005F97C5 /* EntireTopBottomViewModel.swift in Sources */,
+				6D91AE3C25E11933005F97C5 /* LowerDoorViewModel.swift in Sources */,
+				6DA4B09225BB1272004792B6 /* FurnitureBoard.swift in Sources */,
+				6D9DC01325A5CD2600143590 /* Component.swift in Sources */,
+				6D9DC02C25A602FB00143590 /* MeasurementCell.swift in Sources */,
+				6D9DC01D25A5D67A00143590 /* RealmHelper.swift in Sources */,
+				6DB18FBD25D7E2280076DFC5 /* RxBidirectional.swift in Sources */,
+				6D91AE3025E1180F005F97C5 /* HDFViewModel.swift in Sources */,
+				6D91AE7025E13F1F005F97C5 /* GardrobeShelfViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D962A6223E1FA5500EFEC46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D962A6B23E1FA5500EFEC46 /* FurnitureCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D962A6D23E1FA5500EFEC46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D962A7623E1FA5500EFEC46 /* FurnitureCalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D962A6823E1FA5500EFEC46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D962A4F23E1FA5200EFEC46 /* FurnitureCalculator */;
+			targetProxy = 6D962A6723E1FA5500EFEC46 /* PBXContainerItemProxy */;
+		};
+		6D962A7323E1FA5500EFEC46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D962A4F23E1FA5200EFEC46 /* FurnitureCalculator */;
+			targetProxy = 6D962A7223E1FA5500EFEC46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D962A5923E1FA5200EFEC46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D962A5A23E1FA5200EFEC46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D962A5E23E1FA5500EFEC46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D962A5F23E1FA5500EFEC46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D962A7823E1FA5500EFEC46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6D962A7923E1FA5500EFEC46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D962A7B23E1FA5500EFEC46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KMU6VV9XR5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = FurnitureCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GK.FurnitureCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = NO;
+			};
+			name = Debug;
+		};
+		6D962A7C23E1FA5500EFEC46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KMU6VV9XR5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = FurnitureCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GK.FurnitureCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = NO;
+			};
+			name = Release;
+		};
+		6D962A7E23E1FA5500EFEC46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FurnitureCalculatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = teach.FurnitureCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FurnitureCalculator.app/FurnitureCalculator";
+			};
+			name = Debug;
+		};
+		6D962A7F23E1FA5500EFEC46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FurnitureCalculatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = teach.FurnitureCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FurnitureCalculator.app/FurnitureCalculator";
+			};
+			name = Release;
+		};
+		6D962A8123E1FA5500EFEC46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FurnitureCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = teach.FurnitureCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FurnitureCalculator;
+			};
+			name = Debug;
+		};
+		6D962A8223E1FA5500EFEC46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FurnitureCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = teach.FurnitureCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FurnitureCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D962A4B23E1FA5200EFEC46 /* Build configuration list for PBXProject "FurnitureCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D962A7823E1FA5500EFEC46 /* Debug */,
+				6D962A7923E1FA5500EFEC46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D962A7A23E1FA5500EFEC46 /* Build configuration list for PBXNativeTarget "FurnitureCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D962A7B23E1FA5500EFEC46 /* Debug */,
+				6D962A7C23E1FA5500EFEC46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D962A7D23E1FA5500EFEC46 /* Build configuration list for PBXNativeTarget "FurnitureCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D962A7E23E1FA5500EFEC46 /* Debug */,
+				6D962A7F23E1FA5500EFEC46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D962A8023E1FA5500EFEC46 /* Build configuration list for PBXNativeTarget "FurnitureCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D962A8123E1FA5500EFEC46 /* Debug */,
+				6D962A8223E1FA5500EFEC46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D962A4823E1FA5200EFEC46 /* Project object */;
+}
